@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* BODY */
+body {
+	background-color: #ffb100;
+}
+
+h5 {
+	font-family: Comic Sans MS, Arial;
+	font-weight: bold;
+}
+
+/* Nav */
+nav {
+	margin-top: -35px;
+	margin-bottom: 18px;
+	border-radius: 40px;
+}
+
+#cont_nav {
+	background-color: rgb(255, 128, 0);
+	padding-top: 1.0em;
+	padding-bottom: 1.0em;
+	border-radius: 40px;
+}
+
+h3 {
+	font-family: Comic Sans MS, Arial;
+	font-weight: bold;
+	margin-right: 1.0em;
+	margin-left: 1.0em;
+	margin-bottom: 0;
+	border-right: solid;
+	padding-right: 0.5em
+}
+
+.cont-telefono {
+	position: absolute;
+	bottom: 0.5em;
+	margin-left: 0.5em;
+}
+
+h3:hover {
+	color: white;
+	cursor: pointer;
+}
+
+/* Footer */
+.container-fluid {
+	height: 280px;
+}
+
+footer {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-family: Comic Sans MS, Arial;
+}
+
+footer /* PLANTILLA INICIO */ 
+#parrafo_inicio {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+/* PLANTILLA CITAS */
+label {
+	font-weight: bold;
+}
+
+#form_nombre-error, #form_correo-error, #form_telefono-error,
+	#form_direccion-error {
+	color: white
+}
+
+#cont_citas::-webkit-scrollbar {
+	width: 0.7em
+}
+
+#cont_citas::-webkit-scrollbar-track {
+	background-color: rgb(255, 128, 0)
+}
+
+#cont_citas::-webkit-scrollbar-thumb {
+	background-color: #343a40;
+	outline: 1px solid #343a40
+}
